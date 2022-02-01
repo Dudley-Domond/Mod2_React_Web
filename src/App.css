@@ -1,0 +1,95 @@
+body {
+  background-color: whitesmoke;
+}
+
+#container {
+  background-color: grey;
+  width: 90%;
+  height: 500px;
+  margin: 0 auto;
+  border: 10px dotted black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 2.5rem;
+  color: whitesmoke;
+  font-family: "Black Ops One", cursive;
+}
+
+#container:hover {
+  color: black;
+}
+
+#images {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  border: 20px solid orange;
+}
+
+.video__ {
+  background-size: cover;
+  width: 10%;
+  height: 10%;
+}
+
+.about_header {
+  margin-top: 1rem;
+  padding: 3.5rem;
+  font-family: cursive;
+  color: goldenrod;
+  background-color: black;
+  border: 10px solid gray;
+}
+
+#input_btn {
+  font-size: 1.5rem;
+}
+
+#search_btn {
+  font-size: 1.5rem;
+  background-color: black;
+  color: goldenrod;
+}
+
+#logout_btn {
+  font-size: 1rem;
+  background-color: goldenrod;
+  color: black;
+}
+
+#search_btn:hover,
+#logout_btn:hover {
+  background-color: gray;
+  color: whitesmoke;
+}
+
+.form-check {
+  padding: 5rem;
+  margin: 5rem;
+}
+
+.form-check:hover {
+  background-color: gray;
+  color: whitesmoke;
+}
+
+.contact-heading {
+  padding: 1rem;
+  margin: 1rem;
+  font-weight: bold;
+  font-style: oblique;
+  border: 5px dashed orange;
+}
+
+.submit_btn {
+  background-color: orange;
+  font-size: 1.5rem;
+}
+
+.submit_btn:hover {
+  background-color: black;
+  color: orange;
+  font-size: 1.5rem;
+}
